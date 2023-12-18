@@ -1,13 +1,13 @@
 sudo apt update
 sudo apt install python3-pip python3-dev libpq-dev postgresql postgresql-contrib
 sudo -u postgres psql
-    CREATE DATABASE <db_name>;
-    CREATE USER <db_user> WITH PASSWORD 'password';
-    ALTER ROLE <db_user> SET client_encoding TO 'utf8';
-    ALTER ROLE <db_user> SET default_transaction_isolation TO 'read committed';
-    ALTER ROLE <db_user> SET timezone TO 'UTC';
-    ALTER DATABASE <db_name> OWNER TO <db_user>;
-    GRANT ALL PRIVILEGES ON DATABASE <db_name> TO <db_user>;
+    CREATE DATABASE mysite1;
+    CREATE USER mysiteuser1 WITH PASSWORD 'tank1242672';
+    ALTER ROLE mysiteuser1 SET client_encoding TO 'utf8';
+    ALTER ROLE mysiteuser1 SET default_transaction_isolation TO 'read committed';
+    ALTER ROLE mysiteuser1 SET timezone TO 'UTC';
+    ALTER DATABASE mysite1 OWNER TO mysiteuser1;
+    GRANT ALL PRIVILEGES ON DATABASE mysite1 TO mysiteuser1;
     \q
 pip install Django psycopg2
 
