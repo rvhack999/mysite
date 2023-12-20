@@ -48,3 +48,16 @@ class Order(models.Model):
     def __str__(self):
         return self.name
 
+
+class Product(models.Model):
+    name = models.CharField(max_length=50, help_text='Наименование товара')
+    price = models.FloatField(help_text='Стоимость')
+    about = models.TextField(help_text='Описание товара')
+
+
+    class Meta:
+        verbose_name = 'Продукт'
+        verbose_name_plural = 'Продукты'
+
+    def __str__(self):
+        return self.name
