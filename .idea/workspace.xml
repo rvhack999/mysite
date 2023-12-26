@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e7c376f-6678-445d-9033-1c8f193ea587" name="Changes" comment="create model User, Worker, Order&#10;add to admin.py">
+      <change afterPath="$PROJECT_DIR$/mysite/main/static/main/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/Задача.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/Задача.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/templates/main/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,9 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -64,14 +70,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.manage.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "new",
-    "last_opened_file_path": "/home/rvhack/PycharmProjects/mysite/mysite/manage.py",
+    "last_opened_file_path": "/home/rvhack/PycharmProjects/mysite/mysite/main/templates/main",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mysite/main/templates/main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -100,7 +112,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+        <option value="bundled-python-sdk-50da183f06c8-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13135.95" />
       </set>
     </attachedChunks>
   </component>
@@ -169,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702998668786</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create model User, Worker, Order&#10;add to admin.py">
+      <option name="closed" value="true" />
+      <created>1703085397089</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703085397089</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

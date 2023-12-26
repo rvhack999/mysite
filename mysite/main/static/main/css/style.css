@@ -1,0 +1,23 @@
+section {
+    color: #ff00dc;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/back.png);
+    background-attachment: scroll;
+}
+
+.text {
+    text-align: center;
+    color: #fff
+}
+
+body > section > h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+body > div > header {
+    background-image: url(../img/nav_background-0-1.png);
+}
