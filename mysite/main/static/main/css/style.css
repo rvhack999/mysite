@@ -90,3 +90,13 @@ body {
     background-color: rgba(0, 0, 0, .8);
     border-radius: 8px;
 }
+
+.carousel-caption p {
+    color: #fff;
+    font-size: 30px;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 20px;
+}
