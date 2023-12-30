@@ -91,12 +91,41 @@ body {
     border-radius: 8px;
 }
 
-.carousel-caption p {
+.carousel-caption p.idp1 {
     color: #fff;
     font-size: 30px;
+    font-weight: 700;
 }
 
-.carousel-caption h5 {
+.carousel-caption h5.idh51 {
     color: #fff;
     font-size: 20px;
+    font-weight: 700;
+}
+
+.carousel-caption p.idp2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.carousel-caption h5.idh52 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container-top {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 15px;
+    align: center;
+}
+
+.container-top-work {
+
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    align: center;
 }
